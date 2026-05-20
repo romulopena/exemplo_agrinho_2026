@@ -155,33 +155,21 @@ span { color: var(--secondary-color); font-weight: bold; }
    ========================================================================== */
 
 .dark-mode {
-    background-color: #111;
-    color: #f1f1f1;
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+    --light-bg: #1f1f1f;
+    --dark-neutral: #ffffff;
 }
 
-.dark-mode .header-container,
-.dark-mode .footer-container,
-.dark-mode .bg-light {
-    background-color: #1c1c1c;
-}
-
-.dark-mode .main-title,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode p,
-.dark-mode .nav-item,
-.dark-mode .logo h2 {
-    color: #f1f1f1;
-}
-
-.dark-mode .card-eco {
-    background-color: #222;
-    border: 1px solid #444;
-}
-
+/* Texto escondido */
 .hidden-text {
     display: none;
     margin-top: 20px;
     font-size: 1rem;
     font-weight: bold;
+}
+
+/* Quando aparecer */
+.show-text {
+    display: block;
 }
